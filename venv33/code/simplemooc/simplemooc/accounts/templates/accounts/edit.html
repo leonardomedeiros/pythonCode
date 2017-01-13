@@ -1,0 +1,10 @@
+{% extends acccounts/dashboard.html %}
+
+{% block breadcrumb %}
+	{{ block.supper }}
+	<li></li>
+	<li><a href="{% url 'accounts:edit' %}">Editar Conta</a></li>
+{% endblock %}
+
+{% block dashboard_contents %}
+{% endblock }
